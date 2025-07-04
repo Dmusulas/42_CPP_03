@@ -6,17 +6,17 @@
 #    By: dmusulas <dmusulas@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/24 12:24:27 by dmusulas          #+#    #+#              #
-#    Updated: 2025/06/26 18:22:32 by dmusulas         ###   ########.fr        #
+#    Updated: 2025/07/04 21:04:15 by dmusulas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CPP             = c++
 CPPFLAGS        = -Wall -Wextra -Werror -std=c++98 -O0
-NAME            = fixed
+NAME            = fragtrap
 MAKE            = make
 RM              = rm -rf
 
-SRCS            = main.cpp Fixed.cpp
+SRCS            = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 
 OBJS            = $(SRCS:%.cpp=obj/%.o)
 OBJ_DIR         = obj
